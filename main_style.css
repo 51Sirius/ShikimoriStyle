@@ -20,3 +20,52 @@ body {
 .l-top_menu-v2 .menu-dropdown > span {
 	background: rgba(10, 7, 87, 0.2);
 }
+
+.l-page .profile-head .c-brief .avatar>img {
+    border-radius:  50%;
+    transition: 1s;
+}
+
+.l-page .profile-head .c-brief .avatar>img:hover {
+    border-radius: 0;
+}
+
+@keyframes anime_watch {
+    from {
+        transform: scaleX(1.0);
+    }
+    10%{
+        transform: scaleX(1.05);
+    }
+    20% {
+        transform: scaleX(1.1);
+    }
+    30% {
+        transform: scaleX(1.125);
+    }
+    35% {
+        transform: scaleX(1.15);
+    }
+    50% {
+        transform: scaleX(1.2);
+    }
+    65% {
+        transform: scaleX(1.15);
+    }
+    70% {
+        transform: scaleX(1.125);
+    }
+    80% {
+        transform: scaleX(1.1);
+    }
+    90%{
+        transform: scaleX(1.05);
+    }
+    to {
+        transform: scaleX(1.0);
+    }
+}
+
+.c-left .b-stats_bar .bar .first {
+    animation: anime_watch 2s ease-in-out infinite;
+}
