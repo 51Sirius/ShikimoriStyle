@@ -1,12 +1,22 @@
 body {
-    background: url("https://i.pinimg.com/originals/46/51/9b/46519ba88c0ecf5b3acae71c5bc94525.jpg");
+    background: url("https://pbs.twimg.com/media/C37yivfUoAAFpZA.jpg");
     background-size: cover;
 }
 
-.l-page {
+.l-page, .l-top_menu-v2, .l-top_menu-v2 .global-search .search-results, .l-top_menu-v2 .global-search input, .l-top_menu-v2 .submenu {
+    background: rgba(10, 7, 87, 0.5);
+}
+
+.b-feedback{
 
 }
 
-.headline {
+.l-page {
+    margin: 15px auto 15px;
+	border-radius: 15px;
+    box-shadow: black;
+}
 
+.l-top_menu-v2 .menu-dropdown > span {
+	background: rgba(10, 7, 87, 0.2);
 }
