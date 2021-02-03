@@ -30,6 +30,19 @@ body {
     border-radius: 0;
 }
 
+@keyframes nik_ani {
+    from {
+        text-shadow: darkblue 0 0 3px;
+    }
+    50%{
+        text-shadow: blue 0 0 5px;
+    }
+    to{
+        text-shadow: darkblue 0 0 3px;
+    }
+
+}
+
 @keyframes anime_watch {
     from {
         transform: scaleX(1.0);
@@ -66,6 +79,16 @@ body {
     }
 }
 
-.c-left .b-stats_bar .bar .first {
+.c-left .b-stats_bar .bar .first:hover {
     animation: anime_watch 2s ease-in-out infinite;
+}
+
+.p-profiles .profile-head .c-brief header h1 {
+    color: rgb(0,0,0);
+    text-shadow: darkblue 0 0 3px;
+    font-family: Dubai, sans-serif infinite;
+}
+
+.p-profiles .profile-head .c-brief header h1:hover{
+    animation: nik_ani 2s ease-in-out;
 }
