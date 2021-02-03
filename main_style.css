@@ -98,19 +98,26 @@ body {
 }
 
 .c-left .b-stats_bar .bar .first {
-    background: blue;
+    background: rgba(19,16,236,0.77);
     border-radius: 4px 0 0 4px;
 }
 
 .b-stats_bar .bar .third {
-    background: #12dd57db;
+    background: rgba(8,0,89,0.77);
     border-radius: 0 4px 4px 0;
 }
 
 .c-left .b-stats_bar .title {
-    color: #dfe609;
+    color: #0b0032;
 }
 
 .c-left .b-stats_bar .title .dotted{
 	border-bottom: 0px
+}
+
+.p-profiles-show .b-stats_bar.lifetime .cuts .cut {
+    border-radius: 50%;
+    background: #00f2fa;
+    width: 7px;
+    height: 7px;
 }
