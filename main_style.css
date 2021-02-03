@@ -121,3 +121,11 @@ body {
     width: 7px;
     height: 7px;
 }
+
+.l-top_menu-v2 {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    width: 64px;
+}
