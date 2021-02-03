@@ -122,5 +122,14 @@ body {
     height: 7px;
 }
 
-.l-top_menu-v2 {
+.l-top_menu-v2::selection, ::selection{
+    background-color: #0b0032;
+}
+
+.avatar>img {
+    border-radius: 50%;
+}
+
+.p-profiles .profile-head .c-history .image-name>img {
+    border-radius: 20px;
 }
