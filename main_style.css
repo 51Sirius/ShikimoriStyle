@@ -92,3 +92,17 @@ body {
 .p-profiles .profile-head .c-brief header h1:hover{
     animation: nik_ani 2s ease-in-out;
 }
+
+.p-profiles-show .lifetime .bar {
+    height: 7px;
+}
+
+.c-left .b-stats_bar .bar .first {
+    background: blue;
+    border-radius: 4px 0 0 4px;
+}
+
+.b-stats_bar .bar .third {
+    background: #12dd57db;
+    border-radius: 0 4px 4px 0;
+}
