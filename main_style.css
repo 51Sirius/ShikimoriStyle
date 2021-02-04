@@ -156,3 +156,7 @@ body {
 .headline > a::before, .midheadline > a::before, .subheadline > a::before {
     content: "";
 }
+
+.p-profiles .profile-head .c-history .entry {
+    border-top: 0px;
+}
