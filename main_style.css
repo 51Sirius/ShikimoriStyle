@@ -1,3 +1,9 @@
+:root {
+    --link-active-color: #02d0ff;
+    --link-hover-color: #02dddd;
+}
+
+
 body {
     background: url("https://pbs.twimg.com/media/C37yivfUoAAFpZA.jpg");
     background-size: cover;
@@ -123,7 +129,7 @@ body {
 }
 
 .l-top_menu-v2::selection, ::selection{
-    background-color: #0b0032;
+    background-color: rgba(255,37,15,0.64);
 }
 
 .avatar>img {
@@ -132,4 +138,21 @@ body {
 
 .p-profiles .profile-head .c-history .image-name>img {
     border-radius: 20px;
+}
+
+
+.headline, .midheadline, .subheadline {
+    background-color: rgba(255,255,255,0);
+    border-left-color: rgba(255,255,255,0);
+    color: black;
+    text-align: center;
+}
+
+.headline, .midheadline, .subheadline:hover {
+    background-color: rgba(107,255,245,0.4);
+    border-radius: 4px;
+}
+
+.headline > a::before, .midheadline > a::before, .subheadline > a::before {
+    content: "";
 }
