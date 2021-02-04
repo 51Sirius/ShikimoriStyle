@@ -160,3 +160,11 @@ body {
 .p-profiles .profile-head .c-history .entry {
     border-top: 0px;
 }
+
+.p-profiles .profile-head .c-history .entry .misc {
+    color: rgba(58,255,162,0.73)
+}
+
+.p-profiles .profile-head .c-history .entry .misc.date {
+    color: rgba(58,255,162,0.91);
+}
