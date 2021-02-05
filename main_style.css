@@ -2,6 +2,7 @@
     --link-active-color: #02d0ff;
     --link-hover-color: #02dddd;
     --link-color: #0e11c4;
+    --headline-background-color: rgba(0,0,0,0);
 }
 
 
@@ -175,5 +176,10 @@ body {
 }
 
 .b-tooltipped.dotted {
-    border-bottom: 0;
+    border-bottom: 0 solid;
+}
+
+
+.subheadline, .midheadline, .headline {
+    border-left: 0 !important;
 }
