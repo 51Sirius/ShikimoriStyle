@@ -172,3 +172,7 @@ body {
 .title {
 	color: #0b0032;
 }
+
+.b-tooltipped.dotted {
+    border-bottom: 0;
+}
