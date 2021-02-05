@@ -208,3 +208,13 @@ body {
 img {
     border-radius: 10px;
 }
+
+.cm-s-solarized.cm-s-light {
+    background-color: #00000096;
+    color: #58899b;
+    text-shadow: 0 0;
+}
+
+.b-input .hint {
+    color: #003a80;
+}
