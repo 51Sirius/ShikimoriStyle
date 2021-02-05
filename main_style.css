@@ -193,8 +193,8 @@ body {
   	font-size: medium;
 }
 
-.cc-franchises>img{
-    border-radius: 5px;
+.cc-franchises .b-badge>img{
+    border-radius: 10px;
 }
 
 .border {
