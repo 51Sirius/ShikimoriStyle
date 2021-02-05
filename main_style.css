@@ -168,3 +168,7 @@ body {
 .p-profiles .profile-head .c-history .entry .misc.date {
     color: rgba(58,255,162,0.91);
 }
+
+.title {
+	color: #0b0032;
+}
