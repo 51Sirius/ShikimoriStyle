@@ -200,3 +200,11 @@ body {
 .border {
     border-color: rgba(0,245,255,0.91) !important;
 }
+
+.field {
+    color: rgba(30,154,180,0.91)
+}
+
+img {
+    border-radius: 10px;
+}
