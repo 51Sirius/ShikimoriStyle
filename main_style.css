@@ -218,3 +218,7 @@ img {
 .b-input .hint {
     color: #003a80;
 }
+
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    background-color: #3277a2;
+}
