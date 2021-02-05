@@ -1,6 +1,7 @@
 :root {
     --link-active-color: #02d0ff;
     --link-hover-color: #02dddd;
+    --link-color: #0e11c4;
 }
 
 
@@ -141,9 +142,9 @@ body {
 }
 
 
-.headline, .midheadline, .subheadline {
+.profile-head .headline,.profile-head .midheadline,.profile-head .subheadline, .profile-content .headline,.profile-content .midheadline,.profile-content .subheadline {
     background-color: rgba(255,255,255,0);
-    border-left-color: rgba(255,255,255,0);
+    border-left-color: rgba(255,255,255,0);.
     color: black;
     text-align: center;
 }
