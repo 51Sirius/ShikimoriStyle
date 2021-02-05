@@ -1,7 +1,7 @@
 :root {
     --link-active-color: #02d0ff;
     --link-hover-color: #02dddd;
-    --link-color: #0e11c4;
+    --link-color: #00fff3;
     --headline-background-color: rgba(0,0,0,0);
 }
 
@@ -146,7 +146,7 @@ body {
 .profile-head .headline,.profile-head .midheadline,.profile-head .subheadline, .profile-content .headline,.profile-content .midheadline,.profile-content .subheadline {
     background-color: rgba(255,255,255,0);
     border-left-color: rgba(255,255,255,0);.
-    color: black;
+    color: #00fff3;
     text-align: center;
 }
 
@@ -164,11 +164,11 @@ body {
 }
 
 .p-profiles .profile-head .c-history .entry .misc {
-    color: rgba(58,255,162,0.73)
+    color: rgba(58,255,162,0.73) !important;
 }
 
 .p-profiles .profile-head .c-history .entry .misc.date {
-    color: rgba(58,255,162,0.91);
+    color: rgba(58,255,162,0.91) !important;
 }
 
 .title {
@@ -182,4 +182,21 @@ body {
 
 .subheadline, .midheadline, .headline {
     border-left: 0 !important;
+}
+
+.b-nothing_here {
+    color: #bcaa17;
+}
+
+.p-profiles-show .achievements .header .title {
+    color: #31bddd !important;
+  	font-size: medium;
+}
+
+.cc-franchises>img{
+    border-radius: 5px;
+}
+
+.border {
+    border-color: rgba(0,245,255,0.91) !important;
 }
