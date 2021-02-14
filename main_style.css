@@ -2,7 +2,7 @@
     --link-active-color: #02d0ff;
     --link-hover-color: #02dddd;
     --link-color: #00fff3;
-    --headline-background-color: rgba(0,0,0,0);
+    --headline-background-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -15,26 +15,26 @@ body {
     background: rgba(10, 7, 87, 0.5);
 }
 
-.b-feedback{
+.b-feedback {
 
 }
 
 .l-page {
     margin: 15px auto 15px;
-	border-radius: 15px;
+    border-radius: 15px;
     box-shadow: black;
 }
 
 .l-top_menu-v2 .menu-dropdown > span {
-	background: rgba(10, 7, 87, 0.2);
+    background: rgba(10, 7, 87, 0.2);
 }
 
-.l-page .profile-head .c-brief .avatar>img {
-    border-radius:  50%;
+.l-page .profile-head .c-brief .avatar > img {
+    border-radius: 50%;
     transition: 1s;
 }
 
-.l-page .profile-head .c-brief .avatar>img:hover {
+.l-page .profile-head .c-brief .avatar > img:hover {
     border-radius: 0;
 }
 
@@ -42,10 +42,10 @@ body {
     from {
         text-shadow: darkblue 0 0 3px;
     }
-    50%{
+    50% {
         text-shadow: blue 0 0 5px;
     }
-    to{
+    to {
         text-shadow: darkblue 0 0 3px;
     }
 
@@ -55,7 +55,7 @@ body {
     from {
         transform: scaleX(1.0);
     }
-    10%{
+    10% {
         transform: scaleX(1.05);
     }
     20% {
@@ -79,7 +79,7 @@ body {
     80% {
         transform: scaleX(1.1);
     }
-    90%{
+    90% {
         transform: scaleX(1.05);
     }
     to {
@@ -92,12 +92,12 @@ body {
 }
 
 .p-profiles .profile-head .c-brief header h1 {
-    color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
     text-shadow: darkblue 0 0 3px;
     font-family: Dubai, sans-serif infinite;
 }
 
-.p-profiles .profile-head .c-brief header h1:hover{
+.p-profiles .profile-head .c-brief header h1:hover {
     animation: nik_ani 2s ease-in-out;
 }
 
@@ -106,12 +106,12 @@ body {
 }
 
 .c-left .b-stats_bar .bar .first {
-    background: rgba(19,16,236,0.77);
+    background: rgba(19, 16, 236, 0.77);
     border-radius: 4px 0 0 4px;
 }
 
 .b-stats_bar .bar .third {
-    background: rgba(8,0,89,0.77);
+    background: rgba(8, 0, 89, 0.77);
     border-radius: 0 4px 4px 0;
 }
 
@@ -119,8 +119,8 @@ body {
     color: #0b0032;
 }
 
-.c-left .b-stats_bar .title .dotted{
-	border-bottom: 0;
+.c-left .b-stats_bar .title .dotted {
+    border-bottom: 0;
 }
 
 .p-profiles-show .b-stats_bar.lifetime .cuts .cut {
@@ -130,28 +130,28 @@ body {
     height: 7px;
 }
 
-.l-top_menu-v2::selection, ::selection{
-    background-color: rgba(255,37,15,0.64);
+.l-top_menu-v2::selection, ::selection {
+    background-color: rgba(255, 37, 15, 0.64);
 }
 
-.avatar>img {
+.avatar > img {
     border-radius: 50%;
 }
 
-.p-profiles .profile-head .c-history .image-name>img {
+.p-profiles .profile-head .c-history .image-name > img {
     border-radius: 20px;
 }
 
 
-.profile-head .headline,.profile-head .midheadline,.profile-head .subheadline, .profile-content .headline,.profile-content .midheadline,.profile-content .subheadline {
-    background-color: rgba(255,255,255,0);
-    border-left-color: rgba(255,255,255,0);.
+.profile-head .headline, .profile-head .midheadline, .profile-head .subheadline, .profile-content .headline, .profile-content .midheadline, .profile-content .subheadline {
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
     color: #00fff3;
     text-align: center;
 }
 
 .headline, .midheadline, .subheadline:hover {
-    background-color: rgba(107,255,245,0.4);
+    background-color: rgba(107, 255, 245, 0.4);
     border-radius: 4px;
 }
 
@@ -164,15 +164,15 @@ body {
 }
 
 .p-profiles .profile-head .c-history .entry .misc {
-    color: rgba(58,255,162,0.73) !important;
+    color: rgba(58, 255, 162, 0.73) !important;
 }
 
 .p-profiles .profile-head .c-history .entry .misc.date {
-    color: rgba(58,255,162,0.91) !important;
+    color: rgba(58, 255, 162, 0.91) !important;
 }
 
 .title {
-	color: #0b0032;
+    color: #0b0032;
 }
 
 .b-tooltipped.dotted {
@@ -190,19 +190,19 @@ body {
 
 .p-profiles-show .achievements .header .title {
     color: #31bddd !important;
-  	font-size: medium;
+    font-size: medium;
 }
 
-.cc-franchises .b-badge>img{
+.cc-franchises .b-badge > img {
     border-radius: 10px;
 }
 
 .border {
-    border-color: rgba(0,245,255,0.91) !important;
+    border-color: rgba(0, 245, 255, 0.91) !important;
 }
 
 .field {
-    color: rgba(30,154,180,0.91)
+    color: rgba(30, 154, 180, 0.91)
 }
 
 img {
