@@ -222,3 +222,7 @@ img {
 .b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
     background-color: #3277a2;
 }
+
+.bar .vertical .line .x_label {
+    color: #0b0032;
+}
