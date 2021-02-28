@@ -223,6 +223,10 @@ img {
     background-color: #3277a2;
 }
 
-.bar .vertical .line .x_label {
-    color: #0b0032;
+.line .x_label {
+    color: #0b0032 !important;
+}
+
+.activity .title {
+    color: #0b0032 !important;
 }
